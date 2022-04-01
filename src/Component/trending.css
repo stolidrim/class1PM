@@ -1,0 +1,25 @@
+.cus-img{
+    height: 200px;
+    width: 100%;
+}
+
+.slick-slide{
+    padding: 0 10px;
+}
+
+.slick-list{
+    margin: 0 1em;
+}
+
+.slick-prev{
+    left: 2%;
+    z-index: 1;
+}
+.slick-next{
+    right: 3%;
+}
+.slick-next::before, .slick-prev::before{
+    font-size: 35px;
+    color: rgb(247, 245, 242);
+    line-height: 3;
+}
